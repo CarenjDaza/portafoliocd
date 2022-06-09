@@ -1,0 +1,12 @@
+.home-item{
+    border-radius: 50%;
+    border: 1px solid var(--grey);
+    background-color: var(--white);
+    font-size: 3rem;
+    padding: 1rem;
+    margin: 1rem;
+    color: var(--blacklight);
+}
+.item2{
+    padding: 1rem 1.5rem;
+}

@@ -1,0 +1,17 @@
+.fondo{
+    background-image: url(../../assets/img/fondo.svg);
+    background-size: 100%;
+    text-align: start;
+    height: 280px;
+}
+.fondo h1{
+    margin-top: 0;
+    margin-left: 7.5rem;
+    margin-bottom: 2px;
+    padding-top: 3rem;
+    font-size: 4rem;
+}
+.fondo h2{
+    margin-left: 7.5rem;
+    margin-bottom: 5rem;
+}

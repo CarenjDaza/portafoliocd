@@ -1,0 +1,54 @@
+.body{
+    background: linear-gradient(to bottom right, var(--bluelight),  var(--rose));
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3rem;
+  }  
+.logo{
+    text-align: center;
+    width: 300px;
+    animation: logo infinite 15s linear;
+    margin: 3rem;
+}
+@keyframes logo {
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotatey(360deg);
+    }
+}
+h1{
+    margin: 2rem;
+    font-size: 5rem;
+    color: var(--blacklight);
+    font-family: 'segoe-print-regular';
+}
+h2{
+    color: var(--blacklight);
+    font-size: 35px;
+    font-family: 'sedan-regular';
+}
+.card{
+    border: 1px solid var(--grey);
+    border-radius: 20%;
+    box-shadow: 3px 3px 3px var(--grey);
+    text-align: center;
+    width: 35rem;
+    margin: 0 auto;
+}
+.card h2{
+    font-family: 'segoe-print-regular';
+    font-size: 40px;
+    color: var(--kingblue);
+    text-shadow: 2px 2px 2px var(--grey);
+}
+
+.card p{
+    margin: 1rem;
+    font-family: 'Roboto';
+    font-size: 20px;
+}

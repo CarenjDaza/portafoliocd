@@ -1,0 +1,30 @@
+.nav{
+    background-color: var(--bluelight);
+    padding: 0.5rem;
+    border: 3px solid var(--greyblue);
+    box-shadow: 8px 8px 8px var(--greyblue);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.item{
+    border-radius: 20px;
+    background-color: var(--kingblue);
+    color: var(--white);
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 0.5rem 2rem;
+    border: none;
+    font-family: 'sedan-regular';
+    
+}
+
+.item i{
+    margin-right: 1rem;
+}
+.item:hover{
+    color: darkgray;
+    transform: scale(1.2);
+}
+
+
